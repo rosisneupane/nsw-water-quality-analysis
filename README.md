@@ -81,14 +81,11 @@ The following models were trained to predict next-month water quality:
 
 ---
 
-## 📊 Model Performance Summary
+## Model Comparision
 
-| Model | Accuracy | Precision | Recall | F1 Score | ROC AUC |
-|------|----------|-----------|--------|----------|----------|
-| Logistic Regression | 0.767 | 0.277 | 0.621 | 0.383 | 0.814 |
-| Decision Tree | 0.823 | 0.358 | 0.655 | 0.463 | 0.759 |
-| Random Forest | **0.892** | **0.550** | 0.379 | **0.449** | **0.842** |
-| KNN | 0.855 | 0.316 | 0.207 | 0.250 | 0.652 |
+You can view the complete model comparison results here:
+
+[Model Comparison CSV](reports/figures/next_month_model_comparison.csv)
 
 ---
 
