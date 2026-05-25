@@ -1,6 +1,6 @@
 # nsw-water-quality-analysis
 Data Science Assignment 2 on NSW coastal water quality analysis
-# 🌊 NSW Water Quality Analysis & Prediction
+# 🚰 NSW Water Quality Analysis & Prediction
 
 ## 📌 Project Overview
 This project analyzes and predicts water quality conditions in NSW coastal catchments using machine learning. The goal is to classify water samples as **Normal (0)** or **High Concern (1)** based on environmental indicators such as turbidity, nutrients, dissolved oxygen, and pH, and to predict future water quality conditions.
@@ -81,11 +81,19 @@ The following models were trained to predict next-month water quality:
 
 ---
 
-## Model Comparision
+## 📊 Model Comparison Results
 
 You can view the complete model comparison results here:
 
 [Model Comparison CSV](reports/figures/next_month_model_comparison.csv)
+
+
+| Model | Accuracy | Precision | Recall | F1 | ROC AUC |
+|------|----------|-----------|--------|----|--------|
+| Logistic Regression | 0.767 | 0.277 | 0.621 | 0.383 | 0.814 |
+| Decision Tree | 0.823 | 0.358 | 0.655 | 0.463 | 0.759 |
+| Random Forest | 0.892 | 0.550 | 0.379 | 0.449 | 0.842 |
+| KNN | 0.855 | 0.316 | 0.207 | 0.250 | 0.652 |
 
 ---
 
